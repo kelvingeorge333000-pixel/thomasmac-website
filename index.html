@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet & Greet Event | Thomas Mac</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: url('download.jpeg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+    header p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+    .about img {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form input, form button, form select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #555;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #ffcc00;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meet & Greet with Thomas Mac</h1>
+    <p>Thomas Mac Music – Exclusive Fan Event</p>
+  </header>
+
+  <section>
+    <h2>About the Event</h2>
+    <div class="about">
+      <img src="download (1).jpeg" alt="Thomas Mac portrait">
+      <p>Book your own personalized meet & greet experience with <strong>Thomas Mac</strong>. Choose a date and location that work for you, meet in person, take photos, and enjoy a special Q&A session. This is your chance to connect directly with Thomas Mac Music in an unforgettable way!</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="download (1).jpeg" alt="Thomas Mac portrait">
+      <img src="download.jpeg" alt="Thomas Mac branded image">
+    </div>
+  </section>
+
+  <section>
+    <h2>Register Now</h2>
+    <form action="https://formspree.io/f/mayvlzpn" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+      <input type="tel" name="phone" placeholder="Your Phone Number">
+      <input type="date" name="preferred_date" required>
+      <input type="text" name="preferred_location" placeholder="Preferred Location (City/Venue)" required>
+      <button type="submit">Book My Meet & Greet</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow Thomas Mac on social media:</p>
+    <a href="https://www.instagram.com/thomasmacmusic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+    <p>&copy; 2025 Thomas Mac. All rights reserved.</p>
+  </footer>
+</body>
+</html>
